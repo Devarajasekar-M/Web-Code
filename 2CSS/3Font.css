@@ -1,0 +1,22 @@
+/* Fonts has three type *sans-serif *serif *serifs */
+
+body{
+    background-color:#111111;
+    }
+
+p{
+    /* Lots of decoration having css */
+    background-color:red;
+    color: #00ff00;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:underline wavy blueviolet;
+    font-size: 18px;
+}
+
+h1{
+    background-color: yellow;
+    color: red;
+    /* Font -family has multi type like 'Ink free', 'Mv bolic' */ 
+    font-family: 'Anek Latin', sans-serif;
+}

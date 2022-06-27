@@ -1,0 +1,14 @@
+/*External css file also works like inline & internal but inside of css file */
+
+h2{
+    background-color: #111111;
+    color: #00aa00;
+}
+#id1{
+    background-color: yellow;
+    color: red;
+}
+p,h4.classID{
+    background-color: grey;
+    color: black;
+}

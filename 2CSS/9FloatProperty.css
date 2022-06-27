@@ -1,0 +1,81 @@
+h2{
+border: 1px ;
+border-style: outset;
+width: 200px;
+padding: 2px;
+}
+#id1{
+    margin-right:auto;
+    border-left: 0px;
+    text-align: center;
+    background-color: lightseagreen;
+}
+#id2{
+    margin-left: 270px;
+    text-align: center;
+    background-color:green;
+}
+#id3{
+    margin-left:auto;
+    text-align: center;
+    background-color: blue;
+}
+
+img{
+  float: left;
+  margin: 5px;
+}
+
+div{
+    background-color: black;
+    color: white;
+    border: 2px outset;
+}
+h1{
+    border: 2px inset;
+    background-color: lightgreen;
+    width: 120px;
+    text-align: left;
+}
+#fix{
+    /* fixed in place within viewport */
+    /* run last */
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+#rel{
+    /* relative to it's normal position */
+    position: relative;
+    border-top: 0px;
+    border-left: 0px; 
+    border-right: 0px;
+}
+#str{
+    /* sticks to viewport when scrolling */
+    position: sticky;
+    top: 0px;
+    position: static ;
+    /* static to reset the sticky ,mean normal text */
+}
+
+/* use div in html to get nested boxes in css */
+#box1{
+    border: 2px outset;
+    position: relative;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin-left: 350px;
+    padding: 20px;
+}
+#box2{
+    border: 2px outset;
+    position: absolute;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}

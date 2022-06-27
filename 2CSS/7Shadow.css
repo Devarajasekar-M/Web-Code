@@ -1,0 +1,23 @@
+
+h1{
+    border: 10px solid;
+    padding: 20px;
+
+    /* Text shadow */
+    /* Horizontal (px)
+    Vertical (px)
+    blur (px)
+    color (name,rgb,hex) */
+    text-shadow: 2px 2px 3px yellow,4px 4px 1px red;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+
+    /* Box shadow */
+    /* Horizontal (px)
+    Vertical (px)
+    blur (px)
+    color (name,rgb,hex)*/
+    box-shadow: 5px 5px 1px green,-5px -5px 1px red;
+
+}

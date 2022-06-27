@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color:white;
+
+}
+h1{
+    border-style: outset;
+    border-bottom-style: double;
+    border-top-style: ridge;
+    border-left-style: groove;
+    border-right-style: inset;
+    border-left-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-right-width: 10px;
+    border-left-color: red;
+    border-right-color: green;
+    border-top-color: blue;
+    border-bottom-color: yellow;
+    color: white;
+
+}
+p{
+    /* Padding - distance between text and border */
+    padding: 10px;
+    /* Lots of boder style  */
+    border-style:solid;
+    border-style:dotted;
+    border-style:ridge;
+    border-style:double;
+    border-style:dashed;
+    border-style:groove;
+    border-style:inset;
+    border-style:outset;
+    border-color: white;
+    /* 10px - top ; 5px - right ; 10px - bottom ; 5px - left (automatically assigning this values) */
+    border-width: 10px 5px 10px 5px;
+    color: white;
+    /* Radius - convert border rectangle to circle shape based on radius value */
+    border-radius: 15px;
+
+}

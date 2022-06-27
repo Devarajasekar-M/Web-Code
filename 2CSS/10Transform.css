@@ -1,0 +1,34 @@
+h2{
+    border: 5px outset;
+    background-color: rgb(8, 238, 8);
+    color: black;
+    width: 200px;
+    margin-left: 100px;
+    border-color: red;
+}
+#id2{
+    /* Move horizontally */
+    transform: translateX(50px);
+    /* Move vertically */
+    transform: translateY(50px); 
+    /* Move horizontal & vertical */
+    transform: translate(50px,50px);
+    /* Rotate font x axis */
+    transform: rotateX(180deg); 
+     /* Rotate font y axis */
+    transform: rotateY(180deg);
+     /* Rotate font z axis */
+    transform: rotateZ(180deg);
+     /* Rotate common for all */
+    transform: rotate(180deg);
+    /* Expand font & border in horizontally */
+    transform:scaleX(2);
+    /* Expand font & border in vertically */
+    transform:scaleY(2);
+    /* Expand both */
+    transform: scale(2,2);
+    /* Rotate degree based */
+    transform: skewX(110deg);
+    transform: skewY(110deg);
+    transform: skew(20deg,10deg);
+}

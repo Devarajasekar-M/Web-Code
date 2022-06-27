@@ -1,0 +1,37 @@
+html{
+     
+    /* We want put hexadecimal color or color name or rgb()  */
+    /* rgp(100,150,23) - have 3 value range between 0 to 255  */
+    /* background: rgb(200,43,123); */
+    /* background: #ffffff; */
+    /* background :linear-gradient(gray,black); */
+    /* Stop repeat linear gradient */
+    /* background-repeat: no-repeat; */
+    /* Move to center but not align gradient on full window */
+    /* background-position: center; */
+    /* Expand for only width side not full window */
+    /* background-size: cover; */
+    /* It's fixed the background linear gradient, Dynamically flexible based on windows */
+    /* background-attachment: fixed; */
+
+    /* Css update last one not first one */
+    /* USING IMAGE BACKGROUND */
+
+    color: white;
+    background-image:url("Space1.jpg");
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+h1{
+    /* linear - if we need many colors, easily put many colors */
+    background: linear-gradient(red,yellow,blue,green,violet,indigo,orange);
+}
+
+#id{
+    color: black;
+    /* We want desired side like top,bottom,left,right */
+    background: linear-gradient(to right,yellow,red);
+}

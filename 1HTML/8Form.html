@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Basic Form </title>
+    </head>
+
+    <body>
+
+        <!-- Form tag - Create form (get input from user) -->
+        <!-- Action attribute - Same action needed from database(mysql or php like) -->
+        <!-- # - redirect with same page after submit -->
+        <form action="#">
+            <!-- Label tag - display which input user put -->
+            <label for="FirstNameId"> First Name : </label>
+            <!-- Input tag - get input from user -->
+            <input  type="Text" name="first_name" id="FirstNameId" placeholder="like Deva">
+            <br><br>
+            <!-- For attribute - link between label & input -->
+            <label for="LastNameId"> Last Name : </label>
+            <!-- Id attribute - link between label & input-->
+            <!-- Placeholder attribute - display message in input textbox -->
+            <input  type="Text" name="last_name" id="FirstNameId" placeholder="like M">
+            <br><br>
+
+            <label for="Title"> Title : </label>
+            <label for="Mr."> Mr. </label>
+            <!-- Name attribute - use to choose which option(any one )(also acts as link between options)-->
+            <!-- Name attribute - give name for input field, it's show on web address (http:/ name) -->
+            <!-- Type tag - reset,submit,file,email,number,tel,range,checkbox,password.... -->
+            <!-- Value attribute - we want to put same specific value it show on input field -->
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="Mrs."> Mrs. </label>
+            <input type="radio" id="Mrs." value="Mrs" name="title">
+            <label for="Miss."> Miss. </label>
+            <input type="radio" id="Miss." value="Miss." name="title">
+            <label for="PhD."> PhD </label>
+            <input type="radio" id="PhD." value="PhD." name="title">
+            <br><br>
+
+            <label for="Payment"> Payment : </label>
+            <select id="Payment">
+            <option value="Credit"> Credit </option>
+            <option value="Debit"> Debit </option>
+            <option value="Mastercard"> Mastercard </option>
+            <option value="Giftcard"> Giftcard </option>
+            </select>    
+            <br><br> 
+
+            <label for="Email"> Email : </label>
+            <input type="email" name="email" id="Email" placeholder="yyyzzzxxxx@gmail.com">
+            <br><br>
+
+            <label for="BirthDay"> BirthDay : </label>
+            <!-- Min & Max - range between fixed minimum value to fixed maximum value-->
+            <input type="date" id="Birthday" name="birthday" min="2001-01-01" max="2030-01-01">
+            <br><br>
+
+            <label for="Quantity"> Quantity : </label>
+            <input type="number" id="Quantity" name="quantity" min="0" max="100">
+            <br><br>
+
+            <label for="Phone"> Phone : </label>
+            <input type="tel" id="Phone" name="phone">
+            <br><br>
+
+            <label for="Password"> Password : </label>
+            <!-- Maxlength attribute - fix maximum input length -->
+            <input type="password" id="Password" name="passwoed" maxlength="12" placeholder="Maximum 12 letters">
+            <br><br>
+
+            <label for="Rate us"> Rate us : </label>
+            <!-- Step attribute - fix how many steps in range-->
+            1<input type="range" id="Rate us" step="20" value="100">5
+            <br><br>
+
+            <label for="Sub"> Subcribe : </label>
+            <input type="checkbox" id="Sub" name="subcribe">
+            <br><br>
+
+            <label for="Upload file"> Upload file : </label>
+            <!-- Accept attribute - developer side processes (which file only accept)-->
+            <input type="file" id="Upload file" name="uplaod file" accept=".txt">
+            <br><br>
+
+            <input type="reset">
+            <br><br>
+            <input type="submit">
+            <br><br>
+
+        </form>
+
+    </body>
+
+</html>

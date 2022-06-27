@@ -1,0 +1,43 @@
+#zero{
+    display: block;
+    text-align:center;
+    font-size:150px;
+ }
+ #decreasezero{
+    margin-left:200px;
+    border-style: outset;
+    padding: 10px;
+    text-align: center;
+    border-color: blueviolet;
+    border-radius: 10px;
+    margin-left: 10%;
+    border-width: 10px;
+    background-color: black;
+    color: white;
+}
+#resetzero{
+    margin-left:200px;
+    border-style: outset;
+    padding: 10px;
+    text-align: center;
+    border-color: red;
+    border-radius: 10px;
+    margin: center;
+    margin-left: 410px;
+    border-width: 10px;
+    background-color: black;
+    color: white;
+}
+#increasezero{
+    margin-left:200px;
+    border-style: outset;
+    padding: 10px;
+    text-align: center;
+    border-color: green;
+    border-radius: 10px;
+    margin-left: 350px;
+    margin-right: 10%;
+    border-width: 10px;
+    background-color: black;
+    color: white;
+}  

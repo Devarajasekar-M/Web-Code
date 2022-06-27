@@ -1,0 +1,56 @@
+/* Margin - Different between border and webpage edge */
+ 
+html{
+    /* (-) to reduce edge to border value */
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color: black;
+    color: white;
+   }
+
+h1{
+    border: 1px outset;
+    width: 300px;
+    margin-bottom:0px;
+    border-width: 20px;
+    border-color: green;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+
+}
+
+p{
+    border: 1px outset;
+    width: 250px;
+    border-color: red;
+    border-radius: 20px;
+    border-width: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#id1{
+   margin-top: 20px;
+   margin-right: 60px;
+   margin-bottom: 120px;
+   margin-left: 60px;
+   /* Also same as */
+   margin: 20px 50px 20px 50px;
+}
+
+#id2{
+    margin-left: auto;
+}
+
+#id3{
+    margin-right: auto;
+}
+
+#id4{
+    margin: auto;
+}
+
+#id5{
+    margin: 10%;
+}

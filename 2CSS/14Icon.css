@@ -1,0 +1,23 @@
+.fa-youtube{
+    color:purple;
+}
+.fa-home{
+    color: red;
+}
+.fa-amazon{
+    color: blue;
+}
+.fa-facebook{
+    color: pink;
+}
+.fa-spinner{
+    color: yellow;
+}
+.fa-twitter{
+    color: green;
+}
+
+
+a:hover{
+       text-decoration: none;
+}

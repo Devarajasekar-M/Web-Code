@@ -1,0 +1,52 @@
+<!-- CSS applying ways inline, internals, externals -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- INTERNAL Include-->
+        <!-- Whatever we want to put between style tag inside of head tag, this called internal include -->
+        <!-- We want to create same style in multi tags just we put (,) to add tags name -->
+        <!-- Access all class tags using symbol (.) -->
+        <!-- Access tags using (#) symbol -->
+        <!-- Almost class and id acts as same work -->
+        <style>
+            h2,h3{
+                background-color:#111111;
+                color:#00aa00;
+            }
+            #id1{
+                background-color:grey;
+                color:red;
+            }
+            p,h4.id2C{
+                background-color:yellow;
+                color:red;
+            }
+        </style>
+    </head>
+    <!-- INLINE Include -->
+    <!--Whatever we want put between this <>, this are all called inline include  -->
+    <body>
+        <h1 style="color: rgb(128, 0, 100);"> Basic Inline </h1>
+        <p style="color:yellowgreen">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit soluta maxime excepturi rem suscipit sunt perspiciatis? Veritatis cupiditate, impedit eveniet maxime nemo rerum dolor ducimus quisquam delectus deleniti repudiandae ipsum?
+        </p>
+
+        <h1 style="color:rgb(128, 0, 100);"> Basic Internal </h1>
+        <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo, ullam temporibus pariatur quos neque fugiat dicta perferendis, odio ea ab voluptatibus quasi dolores natus molestiae tempora vero reprehenderit libero?
+        </h2>
+        <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo, ullam temporibus pariatur quos neque fugiat dicta perferendis, odio ea ab voluptatibus quasi dolores natus molestiae tempora vero reprehenderit libero?
+        </h3>
+        <p class="id1C" id="id1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo, ullam temporibus pariatur quos neque fugiat dicta perferendis, odio ea ab voluptatibus quasi dolores natus molestiae tempora vero reprehenderit libero?
+        </p>
+        <p class="id2C" id="id2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo, ullam temporibus pariatur quos neque fugiat dicta perferendis, odio ea ab voluptatibus quasi dolores natus molestiae tempora vero reprehenderit libero?
+        </p>
+        <h4 class="id2C" id="id3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo, ullam temporibus pariatur quos neque fugiat dicta perferendis, odio ea ab voluptatibus quasi dolores natus molestiae tempora vero reprehenderit libero?
+        </h4>
+
+    </body>
+</html>

@@ -1,0 +1,36 @@
+/* User unvisited link color */
+a:link{
+   color: black;
+}
+/* User visited link color */
+a:visited{
+    color:red;
+}
+/* color changed while cursor placed */
+button:hover{
+    background-color: coral;
+}
+button:active{
+    background-color: green;
+}
+
+/* li:last-child{
+    background-image:linear-gradient(to right,orange,red);
+}
+li:first-child{
+    background-image:linear-gradient(to right,orange,red);
+}
+li:nth-child(odd){
+    background-image:linear-gradient(to right,blue,red);
+} 
+li:nth-child(even){
+    background-image:linear-gradient(to right,orange,red);
+} */
+
+/* an+b 
+a = cycle value
+n = counter
+b = strting value(offset) */
+li:nth-child(2n+0){
+    background-image:linear-gradient(to right,orange,red);
+}

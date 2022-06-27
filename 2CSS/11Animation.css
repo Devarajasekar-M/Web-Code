@@ -1,0 +1,67 @@
+#id {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid;
+    background-color: green;
+    text-align: center;
+ 
+}
+/* color changed while cursor placed */
+#id:hover{
+    /* framework invoking */
+
+    /* animation: myRotateAnimation; */
+    /* animation: myTranslationAnimation; */
+    /* animation: myScaleAnimation; */
+    /* animation: myOpacityAnimation; */
+    /* animation: myFontAnimation; */
+    /* animation: myColorAnimation; */
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+/* keyframes is css framework */
+/* display color based on % */
+@keyframes myColorAnimation{
+    /* from{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: black;
+    } */
+    0%{background-color:pink;}
+    20%{background-color:yellow;}
+    40%{background-color:orange;}
+    60%{background-color:red;}
+    80%{background-color:blue;}
+    100%{background-color:violet;}
+}
+/* border rotate x-axis & y-axis & z-axis */
+@keyframes myRotateAnimation{
+    100%{transform: rotateZ(720deg);}
+    100%{transform: rotateX(720deg);}
+    100%{transform: rotateY(720deg);}
+}
+/* border move horizontally & vertically */
+@keyframes myTranslationAnimation{
+    50%{transform: translate(100px,0px);}
+    50%{transform: translate(0px,100px);}
+    50%{transform: translate(50px,50px);}
+}
+/* font expand horizontally & vertically */
+@keyframes myScaleAnimation{
+    50%{transform: scale(2,2);}
+}
+/* font visual size */
+@keyframes myOpacityAnimation{
+    0%{opacity:0}
+    50%{opacity:1}
+    100%{opacity:0}
+}
+
+/* font size expand out of border size */
+@keyframes myFontAnimation{
+    0%{font-size:20px ;}
+    50%{font-size:100px ;}
+    100%{font-size:20px ;}
+}
